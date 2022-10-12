@@ -1,0 +1,126 @@
+
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body
+{
+background: #add8e6 ;
+display:flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+height: 1000px;
+background: #fff;
+display: grid;
+margin-top: 50px;
+grid-template-columns: 1fr 2fr;
+}
+.container .left_Side
+{
+position: relative;
+background-color: #4e34fa;
+padding: 40px;
+}
+.profiletxt
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+}
+.profiletxt .imgBx
+{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+
+.container .right_Side
+{
+position: relative;
+background-color: rgb(255, 255, 255);
+padding: 40px;
+
+}
+
+.kontakt.Language .percent
+{
+position: relative;
+width: 100%;
+height: 6px;
+background: rgb(0, 0, 0);
+display: block;
+margin-top: 5px;
+}
+.kontakt.Language .percent div
+{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    background:rgb(0, 94, 255);
+}
+
+.aboute
+{
+    margin-bottom: 50px;
+}
+.aboute .title2 
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.prao
+{
+    margin-left: 11px;
+    margin-top: -25px;
+    
+}
+.Färdigheter .box
+{
+margin-right: 15px;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.Färdigheter .box h5
+{
+    margin-left: 11px;
+    text-transform: uppercase;
+    color: slategray;
+    font-weight: 500;
+}
+.Färdigheter .box .percent
+{
+    position: relative;
+    width: 80%;
+    height: 10px;
+    background: rgb(0, 0, 0);
+}
+.Färdigheter .box .percent div
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background: rgb(0, 94, 255);
